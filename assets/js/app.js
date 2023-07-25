@@ -17,7 +17,6 @@ $('.aboutSlider').owlCarousel({
         },
         600:{
             items:2,
-            nav: false,
         },
         1000:{
             items:3
