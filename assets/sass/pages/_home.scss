@@ -36,3 +36,9 @@
     width: 100%;
     background-color: rgba(0,0,0,.7);
 }
+
+@media all and(max-width: 600px){
+    .submitBtn{
+        width: 100%;
+    }
+}

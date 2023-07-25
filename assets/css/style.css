@@ -13,6 +13,15 @@
 .nav-item.active {
   border-bottom: 2px solid orange; }
 
+.photoGallery a {
+  display: block;
+  height: 250px; }
+
+.photoGallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
 .aboutSlider .item > p:nth-child(1) {
   margin: 0 !important; }
 
@@ -61,3 +70,7 @@
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7); }
+
+@media all and (max-width: 600px) {
+  .submitBtn {
+    width: 100%; } }

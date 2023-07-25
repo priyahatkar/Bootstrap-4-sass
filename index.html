@@ -167,7 +167,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-white text-center">
-                    <a href="javascript:;">
+                    <a href="javascript:;" data-toggle="modal" data-target="#youtubeModal">
                         <i class="fa fa-play fa-3x text-white mb-4"></i>
                     </a>
                     <h3 class="text-capitalize font-weight-bold mb-3 mb-md-3 mb-lg-4">
@@ -194,25 +194,35 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-12">
-                    <a data-toggle="lightbox" data-gallery="photo-gallery" href="https://source.unsplash.com/random/?nature">
-                        <img src="https://source.unsplash.com/random/?nature" alt="">
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?laptop/560*560">
+                        <img src="https://source.unsplash.com/random/?laptop/560*560" alt="">
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12">
-
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?html/560*560">
+                        <img src="https://source.unsplash.com/random/?html/560*560" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12">
-
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?javascript/560*560">
+                        <img src="https://source.unsplash.com/random/?javascript/560*560" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12">
-
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?css/560*560">
+                        <img src="https://source.unsplash.com/random/?css/560*560" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12">
-
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?angular/560*560">
+                        <img src="https://source.unsplash.com/random/?angular/560*560" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12">
-
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <a data-width="560" data-height="560" data-lightbox="image-1" data-title="My-caption" href="https://source.unsplash.com/random/?desktop/560*560">
+                        <img src="https://source.unsplash.com/random/?desktop/560*560" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -232,10 +242,10 @@
                     </p>
                     <form class="form-inline justify-content-center">
                         <label class="sr-only" for="name"></label>
-                        <input type="text" id="name" placeholder="Name" class="form-control">
+                        <input type="text" id="name" placeholder="Name" class="form-control mb-3 mb-md-0">
                         <label class="sr-only" for="email">Email</label>
-                        <input type="text" id="email" placeholder="Email" class="form-control mx-3">
-                        <button type="submit" class="btn btn-primary text-uppercase">Sign Up</button>
+                        <input type="text" id="email" placeholder="Email" class="form-control mx-0 mx-md-3 mb-3 mb-md-0">
+                        <button type="submit" class="btn btn-primary submitBtn">Sign Up</button>
                     </form>
                 </div>
             </div>
@@ -249,8 +259,30 @@
     </footer>
     </main>
 
+
+    <!-- position fixed element goes here -->
+
+    <div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="#youtubeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="#youtubeModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/6GkrC0FBWzQ" title="3 Bootstrap 4 AXIT   features one TAB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.js" integrity="sha512-oaWLach/xXzklmJDBjHkXngTCAkPch9YFqOSphnw590sy86CVEnAbcpw17QjkUGppGmVJojwqHmGO/7Xxx6HCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
