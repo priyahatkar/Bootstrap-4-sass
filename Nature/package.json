@@ -1,14 +1,14 @@
 {
-  "name": "04--nature",
+  "name": "nature",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/style.scss assets/css/style.css -w"
+    "compile:sass": "node-sass assets/sass/style.scss assets/css/style.css"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^9.0.0"
   }
 }
